@@ -315,6 +315,25 @@ h3 {
   display: inline-block;
 }
 
+/* GET STARTED SECTION */
+
+.get-started {
+  background-color: #9792E4;
+}
+
+/** FOOTER **/
+
+footer {
+  color: #fff;
+  padding: 40px 0;
+  background-color: #333333;
+  text-align: center;
+}
+
+footer p:first-child {
+  margin-bottom: 65px;
+}
+
 
 
 
@@ -419,6 +438,22 @@ h3 {
     width: 100%;
   }
 
+  /* GET STARTED SECTION */
+
+  .get-started .container {
+    max-width: 570px;
+  }
+
+  /** FOOTER **/
+  
+  footer .container {
+    width: 50%;
+  }
+
+  
+
+  
+
 
 
 
@@ -504,6 +539,18 @@ h3 {
 
   .about-us .col.image {
     width: calc((100% - 30px) / 3);
+  }
+
+  /* GET STARTED SECTION */
+
+  .get-started .container {
+    width: 55%;
+  }
+
+  /** FOOTER **/
+  
+  footer .container {
+    max-width: 420px;
   }
 
 

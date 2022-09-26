@@ -1,6 +1,6 @@
 /***** MOBILE FIRST  *****/
 
-/* GENERAL STYLES */
+/*** GENERAL STYLES ***/
 
 *,
 *::before,
@@ -10,4 +10,277 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 75px;
+  background-color: #2083F7;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/** UTILITIES **/
+
+/* DEBUG */
+
+.debug {
+  background-color: deeppink;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.col {
+  width: 100%;
+}
+
+/* FLEX */
+
+.d-flex {
+  display: flex;
+}
+
+/* BUTTON */
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* TEXT */
+
+.text-center {
+  text-align: center;
+}
+
+
+/*** SITE SECTIONS ***/
+
+/** HEADER **/
+
+header .container {
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-menu {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.menu {
+  display: none;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu .btn {
+  background-color: #fff;
+}
+
+.menu .btn a {
+  color: #000;
+}
+
+.menu .btn a:hover {
+  text-decoration: none;
+}
+
+
+/** MAIN **/
+
+/* FEATURES SECTION */
+
+.features {
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.features .row {
+  flex-wrap: wrap;
+}
+
+.features .col {
+  background-color:#B5DDFB;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.features .col:first-child {
+  padding-bottom: 0;
+}
+
+.features h2 {
+  color: #2083F7;
+  margin-bottom: 35px;
+}
+
+.features p {
+  color: #5B6E7F;
+  line-height: 30px;
+}
+
+.features .btn {
+  width: 210px;
+  background-color: #2083F7;
+  color: #fff;
+  margin: 35px 0;
+}
+
+.features .btn a {
+  color: #fff;
+}
+
+.features .col:first-child .img-box {
+  height: 270px;
+}
+
+.features .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+/**** RESPONSIVE ****/
+
+/*** TABLET  ***/
+
+@media screen and (min-width: 480px) {
+
+  /** MAIN **/
+
+  /* FEATURES SECTION */
+
+  .features .row {
+    justify-content: space-between;
+  }
+
+  .features .col {
+    width: calc((100% - 50px) / 3);
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .features .col:first-child {
+    width: calc(((100% - 25px) / 3) * 2);
+    padding-bottom: 0;
+  }
+
+  .features .col:first-child .img-box {
+    width: 60%;
+  }
+
+ 
+
+
+
+  
+
+
+
+
+  
+  
+
+}
+
+/*** DESKTOP ***/
+
+@media screen and (min-width: 841px) {
+
+  /** UTILITIES **/
+
+  .container {
+    max-width: 1140px;
+  }
+
+
+  
+  /** HEADER **/
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  /** MAIN **/
+
+  /* FEATURES SECTION */
+
+  .features .col {
+    display: flex;
+  }
+
+  .features .col:first-child .text-box {
+    width: 40%;
+  }
+
+  .features .col:first-child .img-box {
+    width: 60%;
+  }
+
+  .features .col:first-child {
+    display: flex;
+  }
+
+
+
+  
+
+}
 

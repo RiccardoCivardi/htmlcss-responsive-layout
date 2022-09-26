@@ -335,30 +335,6 @@ footer p:first-child {
 }
 
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
 /**** RESPONSIVE ****/
 
 /*** TABLET  ***/
@@ -450,30 +426,6 @@ footer p:first-child {
     width: 50%;
   }
 
-  
-
-  
-
-
-
-
-
-  
-
-  
-
- 
-
-
-
-  
-
-
-
-
-  
-  
-
 }
 
 /*** DESKTOP ***/
@@ -552,14 +504,6 @@ footer p:first-child {
   footer .container {
     max-width: 420px;
   }
-
-
-
-
-
-
-
-  
 
 }
 

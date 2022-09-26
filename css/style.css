@@ -53,6 +53,7 @@ a {
 
 .col {
   width: 100%;
+  border-radius: 15px;
 }
 
 /* FLEX */
@@ -140,7 +141,7 @@ header .container {
 .features .col {
   background-color:#B5DDFB;
   margin-bottom: 25px;
-  border-radius: 15px;
+  
   padding: 30px;
 }
 
@@ -198,7 +199,7 @@ header .container {
   margin-top: 30px;
 }
 
-/* TESTIMONIAL SECTION */
+/* TESTIMONIALS SECTION */
 
 .testimonials {
   padding: 65px 0 75px;
@@ -237,8 +238,85 @@ header .container {
 /* BENEFITS SECTION */
 
 .benefits {
-  
+  background-color: #9792E4;
+  padding: 70px 0 30px;
 }
+
+.benefits h2 {
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.benefits .col {
+  background-color: #fff;
+  padding: 40px 30px 30px;
+  margin-bottom: 30px; 
+}
+
+.benefits .col h2,
+h3 {
+  color: #9792E4;
+}
+
+.benefits .col h2 {
+  margin-bottom: 35px;
+}
+
+.benefits .col h3 {
+  margin-bottom: 25px;
+}
+
+.benefits .btn {
+  background-color: #9792E4;
+  color: #fff;
+  display: inline-block;
+  width: 50%;
+  margin-top: 25px;
+}
+
+/* ABOUT US SECTION */
+
+.about-us {
+  padding: 90px 0 40px;
+}
+
+.about-us h2 {
+  color: #9792E4;
+  margin-bottom: 50px;
+}
+
+.about-us p {
+  margin-bottom: 40px;
+  line-height: 3rem;
+}
+
+.about-us .col {
+  margin-bottom: 40px;
+}
+
+.about-us img {
+  width: 55%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-us .col:last-child p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color:#9792E4;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.about-us .btn {
+  background-color: #9792E4;
+  color: #fff;
+  padding: 15px 15px;
+  display: inline-block;
+}
+
+
+
 
 
 
@@ -297,7 +375,7 @@ header .container {
     padding-top: 70px;
   }
 
-  /* TESTIMONIAL SECTION */
+  /* TESTIMONIALS SECTION */
 
   .testimonials .col {
     padding: 30px 15px;
@@ -309,6 +387,39 @@ header .container {
   .testimonials img {
     margin-right: 30px;
   }
+
+  /* BENEFITS SECTION */
+
+  .benefits .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .benefits .col {
+    width: calc((100% - 30px) / 2);
+  }
+
+  /* ABOUT US SECTION */
+
+  .about-us .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-us .col.text {
+    width: calc(((100% - 30px) / 3) * 2);
+  }
+
+  .about-us .col.image {
+    width: calc((100% - 30px) / 3);
+  }
+
+  .about-us img {
+    width: 100%;
+  }
+
+
 
 
 
@@ -378,6 +489,24 @@ header .container {
   .planning .col {
     width: calc((100% - 80px) /2);
   } 
+
+  /* BENEFITS SECTION */
+
+  .benefits .col {
+    width: calc((100% - 60px) / 3);
+  }
+
+  /* ABOUT US SECTION */
+
+  .about-us .col.text {
+    width: calc(((100% - 30px) / 3) * 2);
+  }
+
+  .about-us .col.image {
+    width: calc((100% - 30px) / 3);
+  }
+
+
 
 
 

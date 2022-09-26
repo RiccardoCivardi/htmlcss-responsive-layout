@@ -198,6 +198,50 @@ header .container {
   margin-top: 30px;
 }
 
+/* TESTIMONIAL SECTION */
+
+.testimonials {
+  padding: 65px 0 75px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #9792E4;
+  margin: 35px 0;
+}
+
+.testimonials p {
+  margin-bottom: 50px;
+}
+
+.testimonials .col {
+  background-color: #9792E4;
+  border-radius: 50px;
+  margin-bottom: 35px;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.testimonials img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+  margin-bottom: 25px;
+}
+
+/* BENEFITS SECTION */
+
+.benefits {
+  
+}
+
+
+
  
 
 
@@ -222,7 +266,7 @@ header .container {
 
 /*** TABLET  ***/
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 480px) {
 
   /** MAIN **/
 
@@ -251,6 +295,19 @@ header .container {
 
   .planning .col:first-child img {
     padding-top: 70px;
+  }
+
+  /* TESTIMONIAL SECTION */
+
+  .testimonials .col {
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .testimonials img {
+    margin-right: 30px;
   }
 
 
